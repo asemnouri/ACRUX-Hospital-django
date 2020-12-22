@@ -1,6 +1,6 @@
 
 #  ACRUX-Hospital-django
- it is an app that helps Doctors, Patients, and normal people to communicate easier with each other.
+ It is an app that helps Doctors, Patients, and normal people to communicate easier with each other.
 ## Main User Stories:
  - Can have an account in our website (doctor,patient ,normal user)
  - The patinet can book an appointment with doctor
