@@ -1,20 +1,15 @@
 
 #  ACRUX-Hospital-django
-> ACRUX-Hospital-django: A web app. this website help Hospital ,Doctors ,Patients ,normal people to communicat easier with  each other.
+ it is an app that helps Doctors, Patients, and normal people to communicate easier with each other.
 ## Main User Stories:
- - can have an acoount in our website (doctor,patient ,normal user)
- - patinet can book an appointment with doctor
- - doctor & patient can make chat with each other 
- - doctor can check all blood bank users
+ - Can have an account in our website (doctor,patient ,normal user)
+ - The patinet can book an appointment with doctor
+ - The doctor & patient can make chat with each other 
+ - The doctor can check all blood bank users
  
 # Future Features :
  - send message to all users to donate blood for emergency
 
-## Team
-- **Scrum Master**: [Moumen Hanbali](https://github.com/Moumenh)
-- **Co-Leader**: [Israa kittaneh](https://github.com/israakittaneh)
--  [Asem Nouri](https://github.com/asemnouri) 
-- [Shaima Azmi](https://github.com/shaima96) 
 
 ## Technologies used
 - [Reactjs](https://reactjs.org/) - For the frontend
@@ -26,6 +21,11 @@
 - Machine learning (Pandas,Numpy,sklearn,joblib)
 - Firebase
 - SQLite - For the database
+- Socket
+- Cloudinary
+- Material UI
+- Python
+
 
 ## Installing Dependencies
 1. Backend
@@ -54,3 +54,9 @@
    ```
    npm start
    ```
+
+## Team
+- **Scrum Master**: [Moumen Hanbali](https://github.com/Moumenh)
+- **Co-Leader**: [Israa kittaneh](https://github.com/israakittaneh)
+- [Asem Nouri](https://github.com/asemnouri) 
+- [Shaima Ihdoosh](https://github.com/shaima96) 
