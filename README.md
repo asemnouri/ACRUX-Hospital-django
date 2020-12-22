@@ -1,6 +1,6 @@
 
 #  ACRUX-Hospital-django
-> ACRUX-Hospital-django: A web app. this website help Hospital ,Doctors ,Patients ,normal people to commuinicat easier with  each other.
+> ACRUX-Hospital-django: A web app. this website help Hospital ,Doctors ,Patients ,normal people to communicat easier with  each other.
 ## Main User Stories:
  - can have an acoount in our website (doctor,patient ,normal user)
  - patinet can book an appointment with doctor
@@ -23,7 +23,7 @@
 - [Django](https://www.djangoproject.com/) - for backend
 - [Trello](https://trello.com/b/FFojNT3J/thesis-project)
 - [Figma](https://www.figma.com/file/8BDxJ5qw5olfUAPNUFYy7F/Acrux-hospital-Team-Library?node-id=312%3A2)
-- Machine learning
+- Machine learning (Pandas,Numpy,sklearn,joblib)
 - Firebase
 - SQLite - For the database
 
