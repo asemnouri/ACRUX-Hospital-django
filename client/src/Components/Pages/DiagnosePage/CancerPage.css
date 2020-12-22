@@ -36,9 +36,10 @@
     border:1px ;
 }
 .cancer_form{
+	margin-top: 100px;
+    height: 600px;
     width: 100%;
-	margin-top: -10px;
-	height: 500px;
+    margin-right: 80px;
 }
  #cancer_title
  {
@@ -53,15 +54,21 @@
 .cancer_form1{
     width: 40%;
     margin-top: 30px;
-    margin-left: 500px;
+    margin-left: 150px;
 }
 
 .cancer_result{
-    margin-top: 20px;
-    margin-left: 640px;
+    margin-left: 150px;
     width: 400px;
+    margin-top: 30px;
 }
 
-.form_textfield{
-    margin-left: 40px;
+.form_textfield_heart{
+    margin-left: 500px;
+    width: 44%;
+    height:100%;
+    background: white padding-box;
+	box-shadow: 3px 4px 15px #0000001A;
+	border-radius: 10px;
+    border-color: #013243;
 }

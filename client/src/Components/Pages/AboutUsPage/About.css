@@ -1,11 +1,11 @@
-/* .about {
+.about_page {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
 	margin: 0;
 	position: relative;
-} */
+} 
 
 .about_picture {
 	width: 100%;
@@ -17,54 +17,66 @@
 	margin-bottom: 20px;
 }
 
-/* .about_text {
+.about_text h1 {
 	color: #013243;
 	position: absolute;
 	top: 190px;
 	font-weight: 900;
 	font-size: 50px;
 	padding: 15px 30px;
-	font-family: 'Titillium Web', sans-serif
+	font-family: 'Titillium Web', sans-serif;
+	margin-left: -200px;
 }
 
-.about_description {
-	margin: auto;
+/*Decription*/
+
+.about_a {
 	width: 1800px;
-	margin-top: 40px;
+	margin-top: 130px;
 	display: flex;
 	flex-wrap: wrap;
 	height: 500px;
 }
 
-.description_picture {
-	width: 400px;
-	height: 100px;
+
+.about_avatar{
+	width: 800px;
 }
 
-.description_text {
-	float: left;
-	margin-left: 1100px;
+.about_avatar img{
+	margin-left: 45px;
 }
 
-.description_text #title {
-	font-size: 40px;
-	color: #013243;
+.about_content{
+/* margin-bottom: -200px; */
+width: 400px;
+margin-left: 300px;
+height: 200px;
+margin-top: 200px;
+}
+.about_title{
+font-family: 'Titillium Web', sans-serif;
+color: #013243;
+margin-right: 10px;
+font-weight: bold;
+font-size: 35px;
 }
 
-.description p {
+.about_desc{
 	color: black;
-	font-size: 20px;
+	font-size: 17px;
 	text-align: center;
-	letter-spacing: 1px;
-	margin-left: 30px;
+	margin-left: 20px;
 	justify-content: center;
 }
 
+
+/* Team*/
+
 .team {
-	margin: auto;
 	width: 1800px;
 	height: 600px;
-	margin-top: 40px;
+	margin-top: 400px;
 }
 
 .team span {
@@ -73,6 +85,7 @@
 	font-size: 25px;
 	color: #013243;
 	font-family: 'Titillium Web', sans-serif;
+	margin-right: 20px;
 }
 
 .team p {
@@ -81,44 +94,45 @@
 	text-align: center;
 	color: #013243;
 	font-family: 'Titillium Web', sans-serif;
-} */
-/* 
-.user_details {
+	margin-right: 20px;
+}
+
+.about_user_details {
 	background: white padding-box;
 	box-shadow: 3px 4px 15px #0000001A;
 	border-radius: 10px;
 	border-color: #013243;
 	width: 30%;
 	color: #525c7b;
-	margin-left: 680px;
+	margin-left: 650px;
 	height: 50%;
 }
 
-.user_detail {
+.about_user_detail {
 	margin-top: -170px;
 	color: black;
 	margin-right: 50px;
 }
 
-.user_detail h3 {
-	margin-left:-100px;
+.about_user_detail h3 {
+	margin-left:-80px;
 	font-size:22px;
 }
 
-.user_detail h5 {
+.about_user_detail h5 {
 	margin-left:-150px;
 	font-size:15px;
 	color:blue;
 }
 
-.user_details img {
-	margin-right: 520px;
+.about_user_details img {
 	margin-top: 50px;
+	margin-left:-500px;
 }
 
-.user_details p {
+ .client_text p {
 	color: black;
-	font-size: 17px;
-	margin-left: 110px;
+	font-size: 16px;
 	text-align: left;
-} */
+	margin-left: 110px;
+}
