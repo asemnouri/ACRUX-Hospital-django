@@ -5,7 +5,7 @@
  - can have an acoount in our website (doctor,patient ,normal user)
  - patinet can book an appointment with doctor
  - doctor & patient can make chat with each other 
- - dcotor can check all blood bank users
+ - doctor can check all blood bank users
  
 # Future Features :
  - send message to all users to donate blood for emergency
