@@ -22,7 +22,7 @@ import AboutUs from './Components/Pages/AboutUsPage/AboutUs'
 class App extends React.Component {
   constructor(props) {
     super(props)
-  
+
   }
 
 
@@ -35,7 +35,7 @@ class App extends React.Component {
         this.props.viewDepartments(data)
         console.log("dep", data)
       })
-      
+
 
   }
 
@@ -61,6 +61,14 @@ class App extends React.Component {
       .then((user) => this.userRole({ pk: user.id }))
       .catch(() => {
         this.props.setUserRole('user')
+        this.props.setCurrentUser({
+          currentUser: null,
+          email: null,
+          id: null
+        })
+        this.props.setFetchId(null)
+        this.props.setDoctorId(null)
+        localStorage.removeItem('Authorization')
         console.log('token expired')
       })
 
@@ -96,17 +104,17 @@ class App extends React.Component {
 
   render() {
 
-    const { departments, currentUser,role } = this.props
+    const { departments, currentUser, role } = this.props
 
     return (
       <div className='App'>
-       
+
         <Header />
         <Switch>
           <Route exact path='/' render={(props) => <HomePage departments={departments} {...props} />} />
 
           <Route exact path='/profile' render={(props) => currentUser ? <UsersProfile {...props} /> : <Redirect to='/' />} />
-          <Route exact path='/bloodbank'  render={(props) => currentUser ? <BloodBank {...props} /> : <Redirect to='/' />}/>
+          <Route exact path='/bloodbank' render={(props) => currentUser ? <BloodBank {...props} /> : <Redirect to='/' />} />
           <Route exact path='/doctors' component={DoctorPage} />
           <Route exact path='/departments' render={(props) => <Departments departments={departments} {...props} />} />
           <Route exact path='/department/:id' render={(props) => <DepartmentDoctor {...props} />} />
@@ -118,8 +126,8 @@ class App extends React.Component {
           <Route exact path='/about' component={AboutUs} />
 
         </Switch>
-        <Footer/>
-        
+        <Footer />
+
       </div>
     )
   }
