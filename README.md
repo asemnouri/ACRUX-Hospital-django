@@ -2,7 +2,7 @@
 #  ACRUX-Hospital-django
  It is an app that helps Doctors, Patients, and normal people to communicate easier with each other.
 ## Heroku Link:
-[Acrux](https://acrux-hospital.herokuapp.com/)
+[Acrux](https://acrux-hospital.herokuapp.com/) 
 ## Main User Stories:
  - The user can have an account in our website (doctor,patient ,normal user)
  - The patinet can book an appointment with doctor
